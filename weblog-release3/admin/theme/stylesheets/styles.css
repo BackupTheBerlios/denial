@@ -1,0 +1,93 @@
+
+/* start the HTML tags that we want to rewrite */
+
+body {
+	font-family: "Bitstream Vera Sans", Verdana, sans-serif, serif;
+	background-color: #DFDFDF;
+	padding: 10px;
+	color: #000000;
+	font-size:13px;
+}
+
+a:link, a:active, a:visited {
+	color: #607080;
+	background-color: transparent; 
+	text-decoration: none;
+}
+
+a:hover {
+	color: #8DC63F;
+	background-color: transparent; 
+	text-decoration: none;
+}
+
+code {
+	/* color: #607080; */
+	background-color: #DFDFDF;
+}
+
+blockquote {
+	margin-left:30px;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-right:0px;
+}
+
+hr {
+	height: 1px;
+	color: #DFDFDF;
+	width: 80%;
+}
+
+/* this is a core element. it is used to style all the images on the site */
+
+img {
+	border:0;
+}
+
+/* content areas */
+
+.box {
+	background: #FFFFFF;
+	padding: 10px;
+	margin: 5px;
+}
+
+/* this is a core element. it is used to style all the titles on the site */
+
+.title {
+	font-size: 1.5em;
+	color: #000000;
+	font-weight: bold;
+}
+
+/* this is a core element. it is used to style all the small stuff on the site */
+
+.small {
+	font-size: 0.8em;
+	line-height: 13px;
+}
+
+/* this is a core element. it is used to style all the form elements on the site */
+
+.tbox {
+	font-family: "Bitstream Vera Sans", Verdana, sans-serif, serif;
+	background-color: #DFDFDF;
+	border: 1px solid #607080;
+	color: #000000;
+	font-size: 1em;
+}
+
+/* this is a core element. used for quotes */
+
+.quote {
+	color: #000000;
+	font-size: 1.5em;
+	font-style: italic;
+	font-family: "Bitstream Vera Serif", Georgia, sans-serif, serif;
+}
+
+.boxen {
+	background-color: #f2f2f2;
+	padding: 5px;
+}

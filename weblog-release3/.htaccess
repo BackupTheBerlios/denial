@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{QUERY_STRING} id=([^&;]*)
+RewriteRule ^/$ http://%{SERVER_NAME}/%1/? [R]
+RewriteRule ^/([^\/]*)/?$ /index.php?id=$1 [L]
+
+Options FollowSymLinks

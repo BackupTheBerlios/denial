@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>equivocal ramblings</title>
+<link rel="stylesheet" type="text/css" href="<$css_path$>styles.css" title="lifeless neon" />
+</head>
+<body>
+<div id="topbox">
+<$header_links$>
+<$admin_links$>
+</div>
+<div id="mainbox">
+<$item$>
+<hr />
+<$comments$>
+<div class="comments">
+<form method="post" action="mcomments.php?commenting=1&amp;id=<$id$>&amp;type=<$type$>">
+<table>
+<tr>
+	<td colspan="2">Would you like to make a comment?</td>
+</tr>
+<tr>
+	<td align="right"><b>Name:</b></td>
+	<td><input type="text" name="name" class="form" /></td>
+</tr>
+<tr>
+	<td align="right"><b>URL:</b></td>
+	<td><input type="text" name="url" class="form" /></td>
+</tr>
+<tr>
+	<td align="right" valign="top"><b>Comment:</b></td>
+	<td><textarea name="comment" class="form" cols="40" rows="10"/></textarea></td>
+</tr>
+<tr>
+	<td></td>
+	<td><input type="submit" value="Comment" class="form" /></td>
+</tr>
+</table>
+</form>
+</div>
+</div>
+<div id="bottombox">
+<$copyright$>
+</div>
+</body>
+</html>
